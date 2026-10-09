@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.task
+models/*.download
+.env
+.env.*
+!.env.example
+*.log
+config.local.json
+scans/
+captures/
+recordings/
+.pytest_cache/
+.DS_Store
+Thumbs.db

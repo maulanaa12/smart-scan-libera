@@ -1,0 +1,50 @@
+{
+  "window": {
+    "title_contains": "Libera",
+    "class_name": "Qt5QWindowIcon",
+    "camera_layout": {
+      "sidebar_width_px": 180,
+      "controls_width_px": 260,
+      "toolbar_height_px": 70,
+      "camera_aspect_ratio": 1.3333333333333333
+    }
+  },
+  "camera_readiness": {
+    "max_dominant_color_percent": 70,
+    "min_gray_std": 15,
+    "ready_seconds": 1.0,
+    "stale_seconds": 1.5
+  },
+  "motion": {
+    "turn_threshold_percent": 2.5,
+    "quiet_threshold_percent": 0.8,
+    "scene_change_percent": 3.0,
+    "debounce_seconds": 0.8,
+    "cooldown_seconds": 1.8,
+    "pixel_delta": 25
+  },
+  "hands": {
+    "model_path": "models/hand_landmarker.task",
+    "max_hands": 2,
+    "inference_width": 640,
+    "blocked_grace_seconds": 0.6,
+    "edge_skin_fallback": true,
+    "edge_skin_min_area_percent": 0.03,
+    "allowed_zones": [
+      [0.0, 0.82, 1.0, 1.0],
+      [0.0, 0.0, 0.13, 0.18],
+      [0.87, 0.0, 1.0, 0.18]
+    ]
+  },
+  "trigger": {
+    "method": "hotkey",
+    "hotkey": "F12",
+    "click_position": [0.93, 0.82]
+  },
+  "ui": {
+    "preview_width": 800,
+    "preview_height": 600,
+    "pin_on_top": true,
+    "sound_feedback": false
+  }
+}
